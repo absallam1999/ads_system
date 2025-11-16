@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "driver": "mysql",
+    "host": "localhost",
+    "user": "root",
+    "password": "1234",
+    "database": "ads_system",
+    "port": 3306
+  },
+  "prod": {
+    "driver": "mysql",
+    "host": "localhost",
+    "user": "root",
+    "password": "1234",
+    "database": "ads_system_test",
+    "port": 3306
+  },
+  "sql-file": true
+}

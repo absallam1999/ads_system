@@ -1,0 +1,89 @@
+# =========================
+# Node & npm
+# =========================
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =========================
+# Build & Dist
+# =========================
+dist/
+build/
+*.tsbuildinfo
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Runtime & OS
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.#*
+
+# =========================
+# IDE & Editors
+# =========================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.sublime-*
+*.code-workspace
+
+
+# =========================
+# Database
+# =========================
+*.sql
+*.sqlite
+*.db
+*.mdf
+*.ldf
+
+# =========================
+# Misc
+# =========================
+.temp/
+.tmp/
+.cache/
+*.bak
+*.tmp
+*.temp
+
+# =========================
+# Security
+# =========================
+*.pem
+*.key
+*.crt
+*.cer
+*.jks
+*.p12
