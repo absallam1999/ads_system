@@ -46,7 +46,7 @@ This is a Node.js + TypeScript REST API for managing Ads and Admin users. It use
 1. **Clone the repository**
 
 ```bash
-git clone <repo-url>
+git clone <repo_URL>
 ```
 
 2. **npm install**
@@ -87,6 +87,27 @@ Now You should see:
 ```bash 
 Server running on port 3000
 ```
+
+---
+
+## Database Setup
+1. **Create the database manually in MySQL:**
+### from cmd, run:
+```bash
+CREATE DATABASE ads_system;
+```
+2. **Run database migrations:**
+### from project terminal, run:
+```bash
+npm db-migrate up
+```
+3. **Check database tables:**
+### from cmd, run:
+```bash
+USE ads_system;
+SHOW TABLES;
+```
+You should see admins table now.
 
 ---
 
