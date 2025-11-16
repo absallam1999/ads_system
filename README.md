@@ -46,8 +46,7 @@ This is a Node.js + TypeScript REST API for managing Ads and Admin users. It use
 1. **Clone the repository**
 
 ```bash
-git clone``` [repo_URL](https://github.com/absallam1999/ads_system.git)
-```bash
+git clone <repo_URL>
 cd ADS
 ```
 
