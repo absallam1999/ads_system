@@ -141,6 +141,16 @@ Required Body (JSON) for Create / Update:
 }
 </code>
 
+Required Enum Values for "role" key:
+<code>
+export enum AdminRole {
+  SUPER_ADMIN = 'super_admin',
+  ADMIN = 'admin',
+  EDITOR = 'editor',
+}
+</code>
+
+
 ### Ads:
 - GET /api/ads – Get all ads
 - GET /api/ads/:id – Get ad by ID
@@ -156,6 +166,17 @@ Required Body (JSON / FormData for file upload):
   "description": "Optional description",
   "link": "https://example.com",
   "template": "template_name"
+}
+</code>
+
+Required Enum Values for "template" key:
+<code>
+export enum AdTemplate {
+  BANNER = 'banner',
+  FULLSCREEN = 'fullscreen',
+  CARD = 'card',
+  VIDEO = 'video',
+  CUSTOM = 'custom',
 }
 </code>
 
